@@ -87,11 +87,34 @@ section {
   height: 32px;
   background-color: #4c8aad;
 }
-#firma {
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  font-size: 0.5em;
-  text-align: center;
-  margin: 100px auto;
+footer {
+  width: 100vw;
+  height: 5vh;
+  background: rgb(44, 41, 41);
+  color: white;
+  font-size: calc(0.3em + 0.8vw);
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  left: 0;
+  bottom: 0px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+footer a:visited {
+  color: white;
+}
+footer p {
+  padding: 0;
+  margin: 10px;
+}
+#git {
+  display: flex;
+  align-items: center;
+}
+#git img {
+  background: white;
+  border-radius: 50%;
+  margin: 3px;
 }
