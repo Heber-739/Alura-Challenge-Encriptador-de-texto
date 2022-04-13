@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html {
   background: linear-gradient(20deg, #8bbcd6, #4ba5d6, #37799d, #384c57);
@@ -9,45 +10,48 @@ html {
 }
 
 header {
-  width: 60vw;
+  width: 40vw;
   text-align: center;
-  margin: 5px auto;
+  margin: 15px auto;
   background-color: #edf8ff;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 0.5px 0.5px 2px 0.5px black;
 }
 h2 {
-  font-size: 1.3em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #16618c;
   text-shadow: 1.2px 1.2px 1px black;
-  padding: 5px;
+  padding: 10px 5px;
 }
 section {
   display: flex;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 80vw;
+  margin: 40px auto;
 }
-#aclaracion {
+.aclaracion {
   color: white;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.2rem;
   padding: 5px;
   margin: 20px auto 5px;
   text-decoration: underline;
+  width: 90%;
 }
-#form {
-  display: block;
-  width: 40vw;
-  height: auto;
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .cuadro-texto {
   background-color: #e6ded5;
-  padding: 10px;
-  width: 35vw;
-  height: 150px;
+  width: 90%;
+  height: 170px;
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
@@ -57,34 +61,29 @@ section {
   box-shadow: 2px 2px 5px black;
 }
 
-#copiador {
-  display: block;
-  margin: 0 auto;
-}
 .cuadro-texto::placeholder {
-  color: black;
-  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 1rem;
   text-align: center;
-  margin: 5px;
-  padding: 10px;
+  padding: 25px 10px 0px;
 }
 
 .button {
-  color: white;
   background-color: #16618c;
-  font-size: 0.7em;
-  font-weight: bold;
-  font-style: italic;
-  width: 80px;
-  height: 30px;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bolder;
+  font-style: oblique;
+  height: 40px;
+  margin: 7px 20px;
   text-shadow: 0.7px 0.7px 3px black;
+  width: 100px;
 }
 .button:hover {
-  width: 85px;
-  height: 32px;
+  transform: scale(1.1);
   background-color: #4c8aad;
 }
 footer {

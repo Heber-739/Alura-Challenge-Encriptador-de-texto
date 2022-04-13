@@ -1,0 +1,38 @@
+header {
+  width: 80vw;
+  max-width: 400px;
+  margin: 10px auto 5px;
+}
+h2 {
+  font-size: calc(0.9rem + 2.5vw);
+  padding: 5px;
+}
+
+section {
+  flex-direction: column;
+  width: 98vw;
+  margin: 10px auto;
+}
+.aclaracion {
+  font-size: calc(0.8rem + 1vw);
+  padding: 0px;
+  margin: 2vh auto;
+}
+
+.form {
+  width: 100%;
+  justify-content: center;
+}
+
+.cuadro-texto {
+  width: 90%;
+  margin: 2vh auto 0px;
+  height: 22vh;
+}
+.button {
+  font-size: 0.7em;
+
+  height: 30px;
+  margin: 5px 10px;
+  width: 100px;
+}
