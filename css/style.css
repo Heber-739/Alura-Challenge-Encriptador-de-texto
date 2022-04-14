@@ -1,44 +1,46 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-html {
+body {
   background: linear-gradient(20deg, #8bbcd6, #4ba5d6, #37799d, #384c57);
   background-repeat: no-repeat;
   height: 100%;
 }
 
 header {
-  width: 40vw;
-  text-align: center;
-  margin: 15px auto;
   background-color: #edf8ff;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 0.5px 0.5px 2px 0.5px black;
+  margin: 15px auto;
+  text-align: center;
+  width: 40vw;
 }
+
 h2 {
+  color: #16618c;
   font-size: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #16618c;
-  text-shadow: 1.2px 1.2px 1px black;
   padding: 10px 5px;
+  text-shadow: 1.2px 1.2px 1px black;
 }
 section {
   display: flex;
-  text-align: center;
   justify-content: space-around;
-  width: 80vw;
   margin: 40px auto;
+  padding: 0px 0px 30vh;
+  text-align: center;
+  width: 80vw;
 }
 .aclaracion {
   color: white;
-  text-align: center;
   font-size: 1.2rem;
-  padding: 5px;
   margin: 20px auto 5px;
+  padding: 5px;
+  text-align: center;
   text-decoration: underline;
   width: 90%;
 }
@@ -50,11 +52,12 @@ section {
 
 .cuadro-texto {
   background-color: #e6ded5;
-  width: 90%;
-  height: 170px;
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  height: 170px;
+  padding: 15px;
+  width: 90%;
 }
 
 .cuadro-texto:hover {
@@ -64,8 +67,8 @@ section {
 .cuadro-texto::placeholder {
   color: rgba(0, 0, 0, 0.75);
   font-size: 1rem;
-  text-align: center;
   padding: 25px 10px 0px;
+  text-align: center;
 }
 
 .button {
@@ -83,34 +86,33 @@ section {
   width: 100px;
 }
 .button:hover {
-  transform: scale(1.1);
   background-color: #4c8aad;
+  transform: scale(1.1);
 }
 footer {
-  width: 100vw;
-  height: 5vh;
-  background: rgb(44, 41, 41);
-  color: white;
-  font-size: calc(0.3em + 0.8vw);
-  display: flex;
-  position: fixed;
-  justify-content: space-evenly;
-  left: 0;
-  bottom: 0px;
-  padding: 0;
-  margin: 0;
   align-items: center;
+  background: rgb(44, 41, 41);
+  bottom: 0px;
+  color: white;
+  display: flex;
+  font-size: calc(0.3em + 0.8vw);
+  justify-content: space-evenly;
+  height: 50px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100vw;
 }
 footer a:visited {
   color: white;
 }
 footer p {
-  padding: 0;
   margin: 10px;
 }
 #git {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 #git img {
   background: white;
